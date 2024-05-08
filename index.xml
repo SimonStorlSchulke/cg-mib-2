@@ -30,10 +30,10 @@
     </item>
     <item>
       <title>Codeschnipsel aus der Vorlesung</title>
-      <link>https://simonstorlschulke.github.io/cg-mib-2/course-python-scripts/</link>
+      <link>https://simonstorlschulke.github.io/cg-mib-2/course-scripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://simonstorlschulke.github.io/cg-mib-2/course-python-scripts/</guid>
-      <description>SoSe24 </description>
+      <guid>https://simonstorlschulke.github.io/cg-mib-2/course-scripts/</guid>
+      <description>Vorlesung 06.05.24 Terrain Meshgenerierung #1&#xA;1@tool # ermöglicht es Skripte im Editor (ohne dass das Spiel gestartet werden muss) auszuführen 2extends MeshInstance3D 3 4@export var width = 1.0 5@export var height = 1.0 6@export var noise_frequency = 0.5 7@export var noise_amplitude = 0.1 8@export var subdivisions = 10 9 10@export var regenerate_mesh: bool: 11 set(value): 12 create_mesh() 13 14var noise = FastNoiseLite.new() 15 16func create_mesh(): 17 noise.seed = randi() 18 var arrmesh = ArrayMesh.</description>
     </item>
     <item>
       <title>Links &amp; Literatur</title>
